@@ -1,9 +1,9 @@
 
-function App() {
+const App = () => {
 
   return (
     <>
-      <h1 className="text-3xl text-green-500 font-semibold"> Welcome to ReKover </h1>
+      <h1 className="text-3xl text-green-500 font-medium"> Welcome to ReKover </h1>
     </>
   )
 }
