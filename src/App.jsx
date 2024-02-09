@@ -1,9 +1,20 @@
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import Home from "./Home"
 
 const App = () => {
 
   return (
     <>
-      <h1 className="text-3xl text-green-500 font-medium"> Welcome to ReKover </h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
