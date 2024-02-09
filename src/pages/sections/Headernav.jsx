@@ -26,6 +26,12 @@ export default function Headernav() {
           to="/"
           className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900"
         >
+          Team
+        </Link>
+        <Link
+          to="/"
+          className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-900"
+        >
           Blog
         </Link>
       </nav>
