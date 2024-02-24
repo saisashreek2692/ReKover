@@ -10,7 +10,6 @@ export default function InputLog({
   id,
   name,
   type,
-  isRequired = false,
   placeholder,
   customClass,
 }) {
@@ -25,7 +24,6 @@ export default function InputLog({
         id={id}
         name={name}
         type={type}
-        required={isRequired}
         className={fixedInputClass + customClass}
         placeholder={placeholder}
       />
