@@ -5,15 +5,15 @@ import { Headernav, Headerform } from "./index";
 const Header = () => {
   return (
     <>
-      <section className="w-full px-8 text-gray-700 bg-white">
-        <div className="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
-          <div className="relative flex flex-col md:flex-row">
+      <section className="header__Box">
+        <div className="header__Container">
+          <div className="header__Flex">
             <Link
               to="/"
-              className="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0"
+              className="header__Anchor"
             >
-              <span className="mx-auto text-xl font-black leading-none text-gray-900 select-none">
-                RK<span className="text-indigo-600">.</span>
+              <span className="header__Anchor--Span-1">
+                RK<span className="header__Anchor--Span-2">.</span>
               </span>
             </Link>
             <Headernav />
