@@ -4,7 +4,7 @@ import { AboutProdBoost, AboutProdTask } from "./index";
 const AboutProd = () => {
   return (
     <>
-      <section className="w-full bg-white pt-7 pb-7 md:pt-20 md:pb-24">
+      <section className="about__Container">
         <AboutProdBoost />
         <AboutProdTask />
       </section>
