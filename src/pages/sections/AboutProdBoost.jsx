@@ -1,4 +1,6 @@
-export default function AboutProdBoost() {
+import React from "react";
+
+const AboutProdBoost = () => {
   return (
     <>
       <div className="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
@@ -41,4 +43,6 @@ export default function AboutProdBoost() {
       </div>
     </>
   );
-}
+};
+
+export default AboutProdBoost;

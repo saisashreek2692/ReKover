@@ -1,10 +1,13 @@
+import React from 'react'
 import { AboutProd, AboutFeatures } from "./index";
 
-export default function About() {
+const About = () => {
   return (
     <>
       <AboutProd />
       <AboutFeatures />     
     </>
-  );
+  )
 }
+
+export default About

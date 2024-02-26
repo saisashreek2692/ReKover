@@ -1,7 +1,8 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import { Headernav, Headerform } from "./index";
 
-export default function Header() {
+const Header = () => {
   return (
     <>
       <section className="w-full px-8 text-gray-700 bg-white">
@@ -19,9 +20,10 @@ export default function Header() {
           </div>
 
           <Headerform />
-          
         </div>
       </section>
     </>
   );
-}
+};
+
+export default Header;

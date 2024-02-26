@@ -1,6 +1,7 @@
+import React from 'react'
 import { Link } from "react-router-dom"
 
-export default function Headernav() {
+const Headernav = () => {
   return (
     <>
       <nav className="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
@@ -36,5 +37,7 @@ export default function Headernav() {
         </Link>
       </nav>
     </>
-  );
+  )
 }
+
+export default Headernav

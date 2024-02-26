@@ -1,4 +1,6 @@
-export default function AboutFeatures() {
+import React from "react";
+
+const AboutFeatures = () => {
   return (
     <>
       <section className="py-20 bg-gray-50">
@@ -86,4 +88,6 @@ export default function AboutFeatures() {
       </section>
     </>
   );
-}
+};
+
+export default AboutFeatures;

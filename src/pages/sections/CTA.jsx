@@ -1,4 +1,6 @@
-export default function CTA() {
+import React from "react";
+
+const Cta = () => {
   return (
     <>
       <section className="flex items-center justify-center py-20 bg-white min-w-screen">
@@ -83,4 +85,6 @@ export default function CTA() {
       </section>
     </>
   );
-}
+};
+
+export default Cta;

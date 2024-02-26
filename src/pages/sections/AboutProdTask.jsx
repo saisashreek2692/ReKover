@@ -1,4 +1,6 @@
-export default function AboutProdTask() {
+import React from "react";
+
+const AboutProdTask = () => {
   return (
     <>
       <div className="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
@@ -41,4 +43,6 @@ export default function AboutProdTask() {
       </div>
     </>
   );
-}
+};
+
+export default AboutProdTask;

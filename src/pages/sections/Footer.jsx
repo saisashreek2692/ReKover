@@ -1,4 +1,6 @@
-export default function Footer() {
+import React from "react";
+
+const Footer = () => {
   return (
     <>
       <section className="bg-white">
@@ -133,4 +135,6 @@ export default function Footer() {
       </section>
     </>
   );
-}
+};
+
+export default Footer;

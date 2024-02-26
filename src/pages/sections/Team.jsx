@@ -1,3 +1,5 @@
+import React from "react";
+
 const people = [
   {
     name: "Leslie Alexander",
@@ -8,7 +10,7 @@ const people = [
   // More people...
 ];
 
-export default function Team() {
+const Team = () => {
   return (
     <>
       <div className="bg-white py-24 sm:py-32">
@@ -50,4 +52,6 @@ export default function Team() {
       </div>
     </>
   );
-}
+};
+
+export default Team;

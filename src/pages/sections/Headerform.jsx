@@ -1,6 +1,7 @@
+import React from 'react'
 import { Link } from "react-router-dom";
 
-export default function Headerform() {
+const Headerform = () => {
   return (
     <>
       <div className="inline-flex items-center ml-5 space-x-6 lg:justify-end">
@@ -18,5 +19,7 @@ export default function Headerform() {
         </Link>
       </div>
     </>
-  );
+  )
 }
+
+export default Headerform

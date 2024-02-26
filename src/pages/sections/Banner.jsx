@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom"
+import React from "react";
+import { Link } from "react-router-dom";
 
-export default function Banner() {
+const Banner = () => {
   return (
     <>
       <section className="px-2 py-32 bg-white md:px-0">
@@ -57,4 +58,6 @@ export default function Banner() {
       </section>
     </>
   );
-}
+};
+
+export default Banner;

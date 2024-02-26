@@ -1,6 +1,7 @@
-import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
+import React from "react";
+import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
 
-export default function Newsletter() {
+const Newsletter = () => {
   return (
     <>
       <div className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
@@ -82,4 +83,6 @@ export default function Newsletter() {
       </div>
     </>
   );
-}
+};
+
+export default Newsletter;

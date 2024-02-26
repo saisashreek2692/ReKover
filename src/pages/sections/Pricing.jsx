@@ -1,4 +1,6 @@
-export default function Pricing() {
+import React from 'react'
+
+const Pricing = () => {
   return (
     <>
       <section className="box-border py-8 leading-7 text-gray-900 bg-white border-0 border-gray-200 border-solid sm:py-12 md:py-16 lg:py-24">
@@ -74,5 +76,7 @@ export default function Pricing() {
         </div>
       </section>
     </>
-  );
+  )
 }
+
+export default Pricing

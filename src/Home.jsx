@@ -1,34 +1,27 @@
+import * as React from "react";
 import {
   Header,
   Banner,
   About,
   CTA,
-  Pricing,
-  Footer,
   Newsletter,
+  Pricing,
+  Team,
   Blogs,
-  Team
+  Footer
 } from "./pages/sections/index";
 
 const Home = () => {
   return (
     <>
       <Header />
-
       <Banner />
-
       <About />
-
       <CTA />
-
       <Newsletter />
-
       <Pricing />
-
       <Team />
-
       <Blogs />
-
       <Footer />
     </>
   );
