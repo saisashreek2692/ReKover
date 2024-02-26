@@ -1,4 +1,6 @@
 export { default as Header } from "./Header";
+export { default as Headerform } from "./Headerform";
+export { default as Headernav } from "./Headernav";
 export { default as Banner } from "./Banner";
 export { default as About } from "./About";
 export { default as AboutProd } from "./AboutProd";
